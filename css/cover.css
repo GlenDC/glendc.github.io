@@ -72,6 +72,9 @@ body {
   border-top: 1px solid #fff;
 }
 
+.description a {
+  text-decoration: underline; !important
+}
 
 /*
  * Header
