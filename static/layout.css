@@ -85,6 +85,7 @@ a.btn {
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    margin: 5px;
 }
 
 #wrapper {
