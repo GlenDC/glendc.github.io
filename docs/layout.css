@@ -37,33 +37,37 @@ header h5 {
     margin: 0;
 }
 
-.bullet-points {
-    margin: 0;
-    padding: 0;
-}
-
-.bullet-points-desc {
-    margin: 0;
-    padding: 0;
-}
-
 .bullet-points-list {
-    margin: 0;
-    padding: 0;
-    display: flex;
+    display: grid;
+    gap: 0.3em;
+    grid-auto-rows: auto;
+    margin-left: 20px;
+}
+
+.bullet-points-list a:hover {
+    text-decoration: none;
+}
+
+.bullet-point-mark {
+    font-size: 0.9em;
+}
+
+.emoji-label {
+    font-size: 0.85em;
+}
+
+.bullet-point-item {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto 1fr;
+}
+
+.bullet-point-item-center {
     align-items: center;
-    justify-content: center;
 }
 
-.bullet-points-list ul {
-    list-style-type: none;
-}
-
-.bullet-points-list span {
-    font-size: 0.75em;
-    padding: 0;
-    margin: 0;
-    margin-right: 3px;
+.bullet-point-text {
+    text-align: left;
 }
 
 #wrapper {
